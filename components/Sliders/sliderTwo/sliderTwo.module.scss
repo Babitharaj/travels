@@ -1,0 +1,214 @@
+
+
+
+.slide-content {
+    padding: 30px;
+    height: 280px;
+    min-height: 260px;
+    color: #fff;
+    margin-right:10px;
+    // background:black;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex !important;
+
+        h4 {
+            font-size: 30px;
+            line-height: 30px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+    
+       h3 {
+
+        margin-bottom: 5px;
+        font-size: 42px;
+        line-height: 61px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+
+         }
+
+       p {
+            font-size: 20px;
+            line-height: 25px;
+            margin-bottom: 22px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            word-break: break-all;
+        }
+        .btn{
+            margin-top: auto;
+      
+   
+.btn-primary{
+    min-width: 207px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    padding-top: 3px;
+    padding: 0 50px 0 25px;
+    top: 2px;
+    border-radius: 25px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 200px;
+    text-transform: uppercase;
+    background: #fff;
+    text-decoration: none;
+    min-width: 207px;
+
+    
+    // a{
+    //     padding-top: 3px;
+    //     font-size: 14px;
+    // }
+
+   
+
+       }
+       
+    i{
+        // transform: scale(1.1);
+        // top: 6px;
+        // right: 10px;
+        // width: 23px;
+        // height: 23px;
+        // content: "";
+        // display: inline-block;
+        // text-align: center;
+        // line-height: 23px;
+        // position: absolute;
+
+        content: "";
+        display: inline-block;
+        height: 23px;
+        width: 23px;
+        text-align: center;
+        align-items: center;
+        line-height: 23px;
+        position: relative;
+        // top: 7px;
+        right: 10%;
+        // background: url(/assets/images/Play-Button-01.png) no-repeat;
+        // background-size: cover;
+        
+    }
+}
+ }
+ 
+ .prev-arrow {
+
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/left-arrow.png");
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:-50px;
+    
+
+}
+.next-arrow{
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/right-arrow.png");
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:-40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .members_benifits_sec {
+        margin-left: -25px;
+    }
+    .slide-content {
+        padding: 20px;
+        color: #fff;
+        min-height: 175px !important;
+        height: auto;
+   
+        h4{
+               font-size: 18px;
+               margin-bottom: 10px;
+               font-family: 'Poppins', sans-serif;
+               font-weight: 500;
+               line-height: normal;
+          
+        }
+        .btn{
+       
+        .btn-primary {
+           margin-right: 20px;
+           margin-left: 0;
+           width: auto;
+           min-width: auto;
+           border-radius: 15px;
+            font-size: 10px;
+           padding: 2px 36px 0 15px;
+           font-family: 'Poppins', sans-serif;
+           font-weight: 500;
+           position: relative;
+           display: inline-flex;
+           align-items: center;
+           height: 24px;
+       }
+           
+     }
+   }
+   .prev-arrow,
+    .next-arrow {
+     display: none !important;
+    }
+    
+}
+
+ @media (max-width: 767px){
+ .members_benifits_sec {
+     margin-left: -25px;
+ }
+ .slide-content {
+     padding: 20px;
+     color: #fff;
+     min-height: 175px !important;
+     height: auto;
+
+     h4{
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            line-height: normal;
+       
+     }
+     .btn{
+    
+     .btn-primary {
+        margin-right: 20px;
+        margin-left: 0;
+        width: auto;
+        min-width: auto;
+        border-radius: 15px;
+         font-size: 10px;
+        padding: 2px 36px 0 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        height: 24px;
+    }
+        
+  }
+}
+.prev-arrow,
+    .next-arrow {
+     display: none !important;
+    }
+ }

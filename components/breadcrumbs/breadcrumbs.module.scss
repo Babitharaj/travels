@@ -1,0 +1,101 @@
+.breadcrums {
+    padding: 0 0px 16px 0px;
+    margin-top: 0px;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 1;
+      &:last-child {
+        color: #212121;
+        width: 145px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        position: relative;
+      }
+      a {
+        color: #757575;
+        margin-right: 0px;
+        &:after {
+          content: "";
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          position: relative;
+          border-bottom: 1px solid #757575;
+          border-right: 1px solid #757575;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          margin-left: 8px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  
+  .location-change-wrapper {
+    float: right;
+    position: relative;
+    font-size: 14px;
+    p {
+      padding-bottom: 0;
+      padding-right: 20px;
+      margin: 0;
+      span {
+        display: inline-block;
+        margin-right: 5px;
+        color: #212121;
+        font-weight: bold;
+      }
+      a {
+        background-color: transparent;
+        color: #24a3b5;
+        text-decoration: none;
+        outline: 0;
+      }
+    }
+    .location-close {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0px;
+      z-index: 4;
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        background: #000;
+      }
+      &::before {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+      }
+      &:after {
+        background: #757575;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+      }
+    }
+  }
+  

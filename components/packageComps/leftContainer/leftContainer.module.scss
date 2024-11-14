@@ -1,0 +1,206 @@
+
+   // width: 870px;
+
+.left-section {
+        border-radius: 4px;
+        box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1);
+        border-top: solid 1px #e7e7e7;
+        .initerary-nav {
+            background: #fff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px 0;
+            position: sticky;
+            top: 145px;
+            z-index: 3;
+            //position: -webkit-sticky;
+            margin-bottom:0;
+            list-style: none;
+        
+            li {
+                color: #4a4a4a;
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 8px 12px;
+                cursor: pointer;
+                background-color:transparent;
+            }
+            .active {
+                font-weight: bold;
+                background: #ffffff;
+                border-radius: 20px;
+                border: 1px solid #008cff;
+                color:#008CFF;
+            }
+        }
+    // .dayplan-container {
+    //         display: flex;
+    //         flex-direction: row;
+    //         background: #fff;
+    //     }
+
+
+    .days{
+        border-right: solid 1px #e7e7e7;
+    }
+    .dayplan-details {
+        //display: flex;
+        //flex-direction: column;
+        //flex: 1;
+        //padding-bottom: 450px;
+    
+        .dayplan-header {
+            background: #f9f9f9;
+            min-height: 44px;
+            border-radius: 30px;
+            //margin: 30px 0px 0 0;
+            display: flex;
+            flex-direction: row;
+            position: sticky;  
+            //top: 210px;
+            z-index: 2;
+          
+            .dayplan-title {
+                font-size: 14px;
+                color:#000000;
+                font-weight: 900;
+                padding: 10px 27px;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                background:linear-gradient(87deg, #f4d1ca 15%, #e2d9b2 100%);
+                border-radius: 6px 6px/0px 100% 100% 0px;
+                max-width: 280px;
+            }
+            .dp-incusions-cont {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                flex: 1;
+                align-items: center;
+    
+                .inclusions-heading {
+                    font-weight: 700;
+                    font-size: 11px;
+                    line-height: 13px;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #242424;
+                }
+                .dp-incusions{
+                    ul{
+                        display: flex;
+                       flex-direction: row;
+                        align-items: center;
+                         margin-right: 10px;
+                         margin-bottom: 0;
+                         padding-left: 0;
+    
+                         li {
+                            display: flex;
+                             flex-direction: row;
+                             align-items: center;
+                             //padding: 10px;
+                              font-size: 12px;
+                            color: #4a4a4a;
+                            font-weight: bold;
+                             text-transform: capitalize;
+                            margin-left: 4px;
+                            padding: 0;
+                            span {
+                                white-space: nowrap;
+                                font-weight: 400;
+                                font-size: 11px;
+                                line-height: 13px;
+                                display: flex;
+                                align-items: center;
+                                color: #242424;
+    
+                                
+                            }
+                            .icon {
+                                width: 24px;
+                                height: 24px;
+                                position: relative;
+                                top: -2px;
+                            }
+                            .textSpan{
+                                border-right: 1px solid #242424;
+                                padding-right: 6px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+       
+    
+    }
+    }
+    @media (max-width: 767px){
+    .days{
+        display: none;
+    }
+    .initerary-nav {
+       
+        padding: 5px 0 !important;
+        justify-content: space-between !important;
+        li {
+           
+            font-size: 11px !important;
+            text-transform: none !important;
+            padding: 5px 8px;
+            
+        }
+        .active {
+            font-weight: bold;
+            background: #008CFF !important;
+            border-radius: 0px !important;
+            border: 1px solid #008cff;
+            color:#fff !important;
+        }
+    }
+
+    .dayplan-details {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        min-height: 0px;
+        min-width: 0px;
+        padding: 0px;
+       
+        .dayplan-header{
+            min-height: 25px !important;
+            border-radius: 0px !important;
+            justify-content: space-between !important;
+
+            .dayplan-title {
+                font-size: 11px !important;
+                font-weight: 600 !important;
+                padding: 5px 15px !important;
+                border-radius: 0 !important;
+                max-width: 280px;
+            }
+            .dp-incusions-cont {
+                margin-left:2%;
+                .dp-incusions{
+                    ul{
+                        list-style:decimal !important;
+
+                        li{
+                            margin-left: 2px !important;
+                            .textSpan{
+                                border-right:0 !important; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }

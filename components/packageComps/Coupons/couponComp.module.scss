@@ -1,0 +1,200 @@
+.offersWrap{
+   border-radius: 4px;
+    box-shadow: 0 2px 24px 0 rgba(0,0,0,.11);
+    border: solid 1px #e7e7e7;
+    background-color: #fff;
+    margin-bottom: 20px;
+
+    .offersSection {
+        background: #fff;
+        border-radius: 4px;
+        margin-bottom: 20px;
+
+        .couponsHead {
+            font-size: 18px;
+            font-weight: 900;
+            padding: 16px 14px;
+        }
+        .emiOptions{
+            background: #f2f2f2;
+             padding: 20px 20px;
+            display: flex;
+            align-items: center;
+
+            .emiIcon {
+                background: linear-gradient(225deg, #667eea 4.42%, #764ba2 100%);
+                border-radius: 20px;
+                padding: 0 3px;
+                color: #fff;
+                font-size: 8px;
+                font-weight: 900;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+                vertical-align: middle;
+                width: 35px;
+                height: 16px;
+                background-position: unset;
+
+                span {
+                    margin-right: 2px;
+                    color: #fff;
+                    font-size: 7px;
+                    font-weight: 900;
+                    border: 1px solid rgba(255,255,255,.7);
+                    border-radius: 30px;
+                    width: 9px;
+                    height: 9px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            .flexOne {
+                flex: 1;
+
+                .bold-Text{
+                 font-weight: 700;
+                }
+                .greyText{
+                    font-size: 11px;
+                    line-height: 11px;
+                    color: #9b9b9b !important;
+
+                    span{
+                        color: #008cff;
+                        cursor: pointer;
+                        font-size: 11px;
+                        line-height: 11px;
+                    }
+                }
+            }
+         }
+         .couponApply{
+            padding: 15px;
+            .couponsInput{
+                margin-bottom: 10px;
+                position: relative;
+
+                input {
+                    background: #fff;
+                    border: 1px solid #cbcbcb;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    padding: 12px 10px 12px 30px;
+                    width: 100%;
+                    outline: none;
+                    //font-family: Lato;
+                    font-size:12px ;
+                }
+                span{
+                    position: absolute;
+                   right: 9px;
+                    top: 14px;
+                    color: #008cff;
+                    opacity: .5;
+                    cursor: default;
+                     pointer-events: none;
+                     font-weight: 700;
+                     font-size: 12px;
+                    line-height: 12px;
+                }
+            }
+            .couponSep {
+                border-bottom: 1px solid #ddd;
+                position: relative;
+                margin: 30px 0;
+                
+                .couponSepText {
+                    width: 24px;
+                    height: 24px;
+                    background: #e7e7e7;
+                    font-size: 11px;
+                    font-weight: 900;
+                    border: 1px solid #ddd;
+                    position: absolute;
+                    top: -11px;
+                    border-radius: 30px;
+                    left: 45%;
+                    padding: 4px 3px;
+                    color: #9b9b9b;
+                }
+            }
+           .couponsList{
+            .couponsOuter {
+                display: flex;
+                width: 100%;
+                background: #d1f8e6;
+                border: 1px solid #6fd7bb;
+                //padding-left: 5px;
+                border-radius: 4px;
+                padding: 12px 12px 12px 5px;
+                margin-top: 10px;
+                position: relative;
+                cursor: pointer;
+                height: 100px;
+                box-sizing: border-box;
+         
+              .greenTick{
+            width: 30px;
+           height: 30px;
+           margin-right: 10px;
+           display: inline-block;
+          //background-size: 480px 480px;
+            font-size: 0px;
+            flex-shrink: 0;
+               }
+             .offer-detail{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                flex: 1;
+               
+               
+                .offerText-wrap{
+                    display: flex;
+                    justify-content: space-between;
+                    flex: 1;
+
+                    .text-cont{
+                        flex: 1;
+                    
+                        .couponName{
+                            border-bottom: dashed 1px #000;
+                            margin-bottom: 4px;
+                            display: inline-block;
+                            padding-bottom: 2px;
+                            font-size: 12px;
+                            line-height: 12px;
+                            color: #000;
+                            font-weight: 700;
+                        }
+                        .description{
+                            font-weight: 400;
+                            font-size: 10px;
+                            line-height: 10px;
+                            color: #4a4a4a !important;
+                        }
+                    }
+                    span{
+                        font-weight: 800;
+                        font-size: 11px;
+                        line-height: 11px;
+                        text-transform: uppercase;
+                        color: #008cff;
+                    }
+                 }
+                 
+                 .couponPrice{
+                    text-align: left;
+                    font-weight: 900;
+                 }
+               }
+            }
+
+        }
+           }
+
+    }
+}

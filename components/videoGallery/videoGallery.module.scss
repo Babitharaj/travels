@@ -1,0 +1,146 @@
+.lightboxstories {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px !important;
+     
+    .image_tn {
+        display: flex;
+        flex: 0 0 25%;
+        max-width: 25%;
+        position: relative;
+        // z-index: 99;
+
+        a{
+            position: relative;
+            display: block;
+            height: 300px;
+            overflow: hidden;
+            width: 100%;
+            filter: grayscale(1);
+           
+
+           img {
+                height: 300px !important;
+                border: 5px solid #fff !important;
+        
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                width: calc(100% - 10px);
+                height: calc(100% - 10px);
+                right: 0;
+                 bottom: 0;
+                 top: 5px;
+                 left: 5px;
+                background: rgba(0,0,0,.3);
+                z-index: 9;
+            }
+        }
+        &:hover a {
+         
+            filter: inherit !important;
+
+            &:after {
+                content: '';
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                height: 41px;
+                width: 41px;
+                background: url("/Travel-ProBusiness-Website1683020486015/assets/images/playbtn.png") no-repeat;
+                position: absolute;
+            }
+            
+         }
+    //  :hover a:after {
+    //         content: '';
+    //         top: 0;
+    //         bottom: 0;
+    //         left: 0;
+    //         right: 0;
+    //         margin: auto;
+    //         height: 41px;
+    //         width: 41px;
+    //         background: url(/assets/images/playbtn.png) no-repeat;
+    //         position: absolute;
+    //     }
+        
+      }
+    }
+    
+
+@media (min-width: 768px) and (max-width: 991px){
+    .lightboxstories {
+     
+        .image_tn {
+          a{
+            height: 191px !important;
+
+
+             img {
+                height: 191px !important;
+                border: 5px solid #fff !important;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: 20px;
+                left: 15px;
+                height: 41px;
+                width: 41px;
+                background: url("/Travel-ProBusiness-Website1683020486015/assets/images/playbtn2.png") no-repeat;
+               
+            }
+          }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .lightboxstories {
+        padding: 0 20px !important;
+         
+        .image_tn {
+           
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+          a{
+            filter: grayscale(0%);
+            height: 150px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 0;
+                bottom: 0;
+                width: calc(100% - 4px);
+                height: calc(100% - 4px);
+                background: rgba(0,0,0,0) !important;
+                z-index: 9;
+            }
+
+             img {
+                height: 150px !important;
+                width: 100%;
+                object-fit: cover !important;
+                border: 1px solid #fff !important;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                bottom: 20px;
+                left: 15px;
+                height: 41px;
+                width: 41px;
+                background: url("/Travel-ProBusiness-Website1683020486015/assets/images/playbtn2.png") no-repeat;
+               
+            }
+          }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "th00028-tours-travels-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.2.3",
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "lg-fullscreen": "^1.2.1",
+    "lg-thumbnail": "^1.2.1",
+    "lg-zoom": "^1.3.0",
+    "lightgallery": "^2.7.1",
+    "lightgallery.js": "^1.4.0",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-bootstrap-v5": "^1.4.0",
+    "react-countdown": "^2.3.5",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-lightgallery": "^0.9.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-slick": "^0.29.0",
+    "sass": "^1.58.3",
+    "slick-carousel": "^1.8.1",
+    "slick-slider": "^1.8.2"
+  }
+}

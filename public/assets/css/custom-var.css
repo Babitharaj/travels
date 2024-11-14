@@ -1,0 +1,83 @@
+/* @import '/bootstrap/scss/bootstrap.scss'; */
+
+/* @import "../../../node_modules/bootstrap/scss/bootstrap.scss"; */
+
+.container {
+    padding: 0 20px !important;
+  }
+  
+  .row {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+    margin: 0 -20px !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .no_wrap {
+    flex-wrap: nowrap !important;
+  }
+  
+  .flex {
+    display: -webkit-box !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+  }
+  
+  .space-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  
+  .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  
+  .align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  
+  .align-items-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important;
+  }
+  
+  .align-items-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
+  
+  .col-12 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding: 0 20px !important;
+  }
+  
+  .col-6 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 50% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+    padding: 0 20px !important;
+  }
+  
+  .col-3 {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 33.33% !important;
+    flex: 0 0 33.33% !important;
+    max-width: 33.33% !important;
+    padding: 0 20px!important;
+  }

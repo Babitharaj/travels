@@ -1,0 +1,73 @@
+.prospectAwardSlick {
+    margin-top: 32px;
+}
+
+.prospectAwardSlickBox {
+    margin: 0 8px;
+}
+.prosAwardSlickInner {
+    display: flex;
+    align-items: center;
+   
+    img {
+        margin-right: 16px;
+    }
+    h4 {
+        font-size: 16px;
+        margin: 0;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        line-height: 22px;
+        
+        span {
+            font-weight: 500;
+        }
+    }
+ }
+
+
+.prev-arrow {
+
+    //content: url(/assets/images/left-sm.png);
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-size: 24px;
+    
+
+}
+.next-arrow{
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/right-sm.png");
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:-27px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+.prev-arrow {
+
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/left-sm.png");
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-size: 24px;
+    
+
+}
+}
+
+@media (max-width: 767px){
+
+}

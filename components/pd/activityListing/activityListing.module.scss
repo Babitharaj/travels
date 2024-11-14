@@ -1,0 +1,161 @@
+.dayplan-section {
+    border-bottom: solid 1px #e7e7e7;
+
+    .activity{
+        position: relative;
+        padding: 0px 25px 10px 25px;
+    
+        .activity-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 15px;
+            padding-top: 15px;
+
+            .activity-title {
+                font-size: 14px;
+                color: #4a4a4a !important;
+            }
+        }
+        .activity-body{
+          display: flex;
+          flex-direction: row;
+          cursor: pointer;
+
+          .image-wrapper {
+            width: 243px;
+            height: 155px;
+            border-radius: 4px;
+            margin-right: 15px;
+            box-sizing: border-box;
+            align-self: flex-start;
+            display: flex;
+            position: relative;
+          
+            .rating{
+            background-color: #249995;    
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #fff !important;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 3px 5px;
+            }
+       .imageCont{
+              border-radius: 4px;
+             overflow: hidden;
+            background-size: cover;
+            background-position: center;
+         .imageItem{
+            background-size: cover;
+            width: 243px;
+             height: 155px;
+
+            img{  
+              max-height: 155px;
+            }
+          }
+        }
+           }
+
+           .activity-details{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .details-headText{
+               margin-bottom: 15px;
+
+               .details-title {
+                color: #000;
+                font-size: 16px;
+                font-weight: 900;
+              }
+
+              .subText{
+                
+                font-size: 12px;
+                line-height: 12px;
+              }
+
+            }
+            .description{
+            display: inline-block;
+            text-align: justify;
+            margin-bottom: 0;
+            
+            .text-desc {
+                color: #4a4a4a;
+                font-size: 11px;
+                text-align: justify;
+            }
+            a{
+                color: #008cff;
+                  text-decoration: none;
+                  cursor: pointer;
+             
+                  span{
+                    color: #008cff;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin-left: 3px;
+                    font-size: 10px;
+                  }
+            }
+            }
+           }
+        }
+    }
+
+
+}
+
+@media (max-width: 767px){
+  .activity{
+    padding: 0 !important;
+    .activity-header{
+      padding-bottom: 10px !important;
+      padding-top: 10px !important;
+
+      .activity-title {
+        font-size: 12px !important;
+       
+    }
+    }
+    .image-wrapper{
+      width: 100px !important;
+      height: 68px !important;
+      border-radius: 4px !important;
+      margin-right: 10px !important;
+
+      .imageItem{
+        background-size: cover;
+        width: 100px !important;
+        height: 68px !important;
+        img{  
+          max-width: 100%;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+    
+        }
+      }
+    }
+    .activity-details{
+      
+      .details-headText{
+        margin-bottom: 8px !important;
+      .details-title {
+        font-size: 14px !important;
+          font-weight: 700 !important;
+      }
+      .subText{
+        display: none;
+      }
+     }
+    }
+  }
+}

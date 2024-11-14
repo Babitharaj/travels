@@ -1,0 +1,32 @@
+.pageHeading {
+    position: sticky;
+    margin-bottom: 15px;
+    top: 0px;
+    background: #fff;
+    z-index: 2;
+    padding-top: 24px;
+    padding-bottom: 3px;
+    margin-left: 1%;
+    .makeFlex {
+        display: flex;
+    .topHeading {
+            color: #000;
+            font-size: 29px;
+            font-weight: 500;
+            margin-right: 10px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .pageHeading {
+        margin-bottom: 10px;
+        margin-left: 4%;
+    }
+    .topHeading {
+        font-size: 25px !important;
+    }
+
+    
+}

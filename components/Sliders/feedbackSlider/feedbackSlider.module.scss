@@ -1,0 +1,89 @@
+
+.themesWrapper{
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: center top;
+    overflow: hidden;
+    outline: none;
+    margin-top: 0px;
+    background-attachment: fixed;
+    display: block;
+}
+
+.slick-slide {
+    width: 270px;
+}
+.flatCard {
+    padding: 3px;
+    overflow: hidden;
+}
+.horizontalColumns .flatCard * {
+    text-align: center;
+}
+.post {
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,.22);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.22);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.22);
+    min-height: 230px;
+    margin: 10px 0 5px;
+}
+.flatCard .postContent {
+    cursor: pointer;
+}
+.postContent div.image {
+    position: relative;
+    min-height: 100px;
+    background-color: #f7f7f7;
+}
+.tb_multiple_media_0,
+ .tb_multiple_media_01 {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    z-index: 9;
+    width: 100%;
+}
+.flatCard .postContent .image img {
+    height: 400px !important;
+    object-fit: cover;
+}
+.flatCard .postContent .image img.img-responsive {
+    width: 100%;
+}
+.flatCard .postContent .image img.img-responsive {
+    width: 100%;
+}
+.postContent div.image>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.flatCard .postContentCard {
+    min-height: 250px;
+}
+.postContentCard {
+    padding: 10px 15px;
+}
+.flatCard h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.authorDetails {
+    position: relative;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-top: -34px;
+}

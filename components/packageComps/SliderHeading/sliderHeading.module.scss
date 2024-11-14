@@ -1,0 +1,35 @@
+.makeFlex{
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+        h2{
+            color: #000;
+            //line-height: 38px;
+            font-weight: 700;
+            font-size: 32px;
+            font-family: 'Poppins', sans-serif;
+        }
+        p{
+            //line-height: 19px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .makeFlex{
+        .flex-column{
+            h2{
+                font-size: 24px;  
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}

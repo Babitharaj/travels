@@ -1,0 +1,113 @@
+// // .content {
+// //     position: relative;
+// //     text-align: justify;
+// //     padding-right: 15px;
+// //     overflow: hidden;
+// //     p {
+// //         font-size: 14px;
+// //         line-height: 18px;
+// //         color: #333;
+// //         margin-bottom: 15px;
+// //         margin-top: 10px;
+// //     }
+// // }
+// // .show_more {
+// //     display: inline-block;
+// //     font-size: 16px;
+// //     font-family: 'Poppins', sans-serif;
+// //     font-weight: 700;
+// //     text-transform: lowercase;
+// //     position: relative;
+// //     display: inline-block;
+// //     background:#fc4208;
+// //     text-decoration: none;
+// //     // -webkit-background-clip: text;
+// //     -webkit-text-fill-color: transparent;
+// // }
+// .hobbies_select_main{
+
+// }
+
+// .more_abt_clbmahindra {
+//     background: #f6f6f6;
+//     padding: 60px 0 50px;
+// }
+
+//  .content {
+//     position: relative;
+//     text-align: justify;
+//     padding-right: 15px;
+//     overflow: hidden;
+
+//     h2 {
+//         font-size: 18px;
+//         font-family: 'Poppins', sans-serif;
+//         font-weight: 700;
+//         margin-bottom: 15px;
+//     }
+//     p {
+//         margin-bottom: 15px;
+//         margin-top: 10px;
+//     }
+// }
+
+// .show_more{
+//     font-size: 16px;
+//     font-family: 'Poppins', sans-serif;
+//     font-weight: 700;
+//     text-transform: lowercase;
+//     position: relative;
+//     display: inline-block;
+//     //color: -webkit-linear-gradient(#fc4208,#ec7e1b);
+// }
+// .show_more:after {
+//     content: '';
+//     //background: url(../images/spriteimg.png?v1) no-repeat;
+//     width: 10px;
+//     height: 16px;
+//     display: inline-block;
+//     margin: 0 0 0 15px;
+//     background-position: -224px -156px;
+//     top: 4px;
+//     position: relative;
+//     -webkit-transform: rotate(90deg) scale(.8);
+//     -ms-transform: rotate(90deg) scale(.8);
+//     transform: rotate(90deg) scale(.8);
+// }
+// @media (min-width: 768px){
+// .more_abt_clbmahindra {
+//     margin-top: 50px;
+// }
+// }
+
+
+.content{
+  position: relative;
+    text-align: justify;
+    padding-right: 15px;
+    overflow: hidden; 
+    
+    h2 {
+        font-size: 26px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+     p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+        font-size: 16px;
+       line-height: 24px;
+       color: #333 !important;
+         font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+ }
+ .show_more {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: lowercase;
+    position: relative;
+    color:rgba(247, 100, 31, 0.89);
+ }

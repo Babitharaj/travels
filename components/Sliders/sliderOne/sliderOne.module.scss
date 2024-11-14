@@ -1,0 +1,132 @@
+.slider-item {
+
+   padding: 0 5px;
+  
+    .thumb{
+     position: relative;
+
+     &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 9;
+      background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.73) 100%);
+      
+  }
+     figure{
+      overflow: hidden;
+      img{
+        object-fit: cover;
+        transform: scale(1);
+         transition: .5s all;
+         width: 100%;
+         min-height: 400px;
+         max-height: 400px;
+      }
+     }
+     figcaption {
+
+      position: absolute;
+      width: 100%;
+    z-index: 99;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+
+      h3 {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+       }
+    //    &:after {
+    //     content: '';
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     top: 0;
+    //     bottom: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: linear-gradient(to bottom,rgba(0,0,0,.63) 0%,rgba(0,0,0,0) 64%,rgba(0,0,0,0) 100%);
+       
+    // }
+    }
+    .thumb:hover figure img {
+      transform: scale(1.1);
+      transition: .5s all;
+  }
+
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px){
+
+     .slider-item{
+
+    .thumb {
+        figure {   
+  
+             img {
+             min-height: 250px !important;
+             max-height: 250px !important; 
+            
+             }
+       }
+      figcaption {
+       
+        padding: 20px !important;
+      
+          h3 {
+              
+             // margin-bottom: 10px;
+              font-size: 18px;
+          }
+       
+      }
+      
+      }
+      }
+    }
+
+  @media (max-width: 767px){
+ 
+    .slider-item{
+
+    .thumb {
+        figure {   
+
+           img {
+           
+           min-height: 200px !important;
+           max-height: 200px !important; 
+         
+           }
+       }
+    figcaption {
+     
+      padding: 20px !important;
+    
+        h3 {
+            
+           // margin-bottom: 10px;
+            font-size: 18px;
+        }
+     
+    }
+    
+    }
+    }
+    
+    }

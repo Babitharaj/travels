@@ -1,0 +1,190 @@
+@import "../../public/assets/css/variables.scss";
+
+.form_section {
+    width: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    
+    form {
+        position: relative;
+        z-index: 29;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: auto;
+        background: #000;
+        padding-top: 40px;
+        border-radius: 15px;
+
+     .form-group {
+            padding: 0 40px;
+            position: relative;
+            margin-bottom: 7px;
+
+            .form-control {
+                background: rgba(249,249,249,.1);
+                color: #fff;
+                height: 70px;
+                padding: 25px 20px;
+                 line-height: initial;
+                 font-size: 18px;
+                 width: 100%;
+                 border-radius: 12px;
+                  border: none;
+                 font-family: 'Poppins', sans-serif;
+                 font-weight: 400;
+                 outline: none;
+
+                 &__label {
+                    position: absolute;
+                    padding: 1px;
+                    left: 60%;
+                    top: 75%;
+                    background: #191919;
+                    font-size: 13px;
+                    color:red;
+                    white-space: nowrap;
+                    transform: translate(0, 0);
+                    transform-origin: 0 0;
+                    transition: transform 120ms ease-in;
+                    line-height: 1.2;
+                  }
+            }
+            .custom_checkbox {
+                position: relative;
+                margin-top: 20px;
+
+                .check{
+                    width: 29px;
+                     height: 29px;
+                     position: absolute;
+                     color:#fff;
+                     margin: 0;
+                     left: 0;
+                     //opacity: 0;
+                     z-index: 29;
+                     border: 1px solid $indicator;
+                     border-radius: 4px;
+                    // background: #98bc40;
+                     
+                     &:checked {
+                        background-color: $indicator !important;
+                         border-color: $indicator;
+                    }
+                 }
+                
+                 label {
+                    padding-left: 40px;
+                    display: inline-block;
+                    color: #fff;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    text-align: left;
+                    font-size: 13px;
+                     line-height: 22px;
+                }    
+            } 
+           
+           
+        }
+        
+        .btn-submit {
+            width: 100%;
+            margin-top: -10px;
+            padding-top: 40px;
+
+            .submit {
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                width: 100%;
+                color: #fff;
+                border: none;
+                height: 88px;
+                line-height: 88px;
+                font-size: 21px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                cursor: pointer;
+                background: linear-gradient(135deg,$indicator 0%,$primary 100%);
+            }
+           }
+    } 
+  }
+
+@media (max-width: 767px){
+    .form_section {
+        width: 100%;
+        max-width: 100%;
+
+        form{
+            padding-top: 20px;
+           
+            .form-group {
+                padding: 0 20px;
+                
+                .form-control {
+                    background: rgba(249,249,249,1);
+                    color: #333;
+                    height: 60px;
+                    border-radius: 7px;
+                    line-height: 30px;
+                    padding: 0 10px;
+                     font-size: 16px;
+                    
+                     &__label {
+                        position: absolute;
+                        padding: 1px;
+                        left: 58%;
+                        top: 70%;
+                        background: #F9F9F9;
+                        font-size: 11px;
+                        color:red;
+                        white-space: nowrap;
+                        transform: translate(0, 0);
+                        transform-origin: 0 0;
+                        transition: transform 120ms ease-in;
+                        line-height: 1.2;
+                      }
+                     
+                } 
+                .custom_checkbox { 
+                    .check{
+                        width: 20px;
+                        height: 20px; 
+                        
+                        border-radius: 2px;
+                    
+                    }
+                    label {
+                       font-size: 11px;
+                       padding-left: 30px;
+                       line-height: 18px;
+   
+                    }    
+                   } 
+            }
+
+            .btn-submit {
+                padding-top: 20px;
+    
+                .submit {
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    height: 60px;
+                    line-height: 45px;
+                    font-size: 16px;
+                    text-transform:none;
+                }
+               }
+        }
+    }
+    }
+
+
+
+
+

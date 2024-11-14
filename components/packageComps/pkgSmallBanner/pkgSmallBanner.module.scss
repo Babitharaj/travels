@@ -1,0 +1,34 @@
+.banner-flex{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+
+    .adtech-desktop {
+        height: fit-content;
+        width: fit-content;
+
+
+        .item-wrap{
+
+            width:970px;
+            height:90px; 
+            position: relative; 
+            cursor: pointer;
+        img {
+            max-width: 100%;
+        }
+     }
+    }
+}
+
+@media (max-width: 767px){
+    .banner-flex{
+        margin-bottom:0;
+    }
+    .item-wrap{
+        width:100% !important;
+        height:100% !important; 
+        
+    }
+}

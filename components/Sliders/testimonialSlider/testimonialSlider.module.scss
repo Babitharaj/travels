@@ -1,0 +1,180 @@
+
+// .testimonial_slider {
+//     z-index: 9;
+//     background: #fff;
+// }
+.facebook-slick{
+    display: block;
+    padding: 0 5px;
+
+    .content_Sec_inner {
+        border: 1px solid #eee;
+        padding-bottom: 10px !important;
+        
+        .content_Sec {
+            justify-content: space-between;
+            margin-bottom: 20px;
+            height: 245px;
+            display: flex;
+            flex-direction: column;
+            max-height: 420px;
+            min-height: 420px;
+        
+         figure {
+                overflow: hidden;
+        
+         img {
+                 
+                    width: 100% !important;
+                    max-height: 300px;
+                    object-fit: cover;
+                    filter: blur(0px);
+                   transform: scale(1);
+                }
+            }
+         .cont {
+                margin-top: 10px;
+                padding: 0 30px;
+            
+                p{
+                    font-size: 16px;
+                   line-height: 24px;
+                   font-weight: 500;
+                }
+            }
+        }
+        .info {
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            justify-content: space-between;
+          
+        
+         .profile_wrap {
+                display: flex;
+                align-items: center;
+                
+            figure{
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-size: cover;
+                    border: 1px solid #d1d1d1;
+                }
+              }
+          .profile {
+             margin-left: 10px;
+                  h4 {
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 700;
+                        margin-bottom: 5px;
+                        font-size: 14px;
+                    } 
+                    p{
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #666 !important;
+                        font-family: 'Poppins', sans-serif;
+                        font-weight: 500; 
+                    }                   
+                }
+            } 
+            
+        
+            .icon {
+                transform: scale(1);
+                height: 40px;
+                width: 40px;
+            }
+        
+        }
+    }
+ }
+ 
+ .prev-arrow {
+
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/left-arrow.png");
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:-50px;
+    
+
+}
+.next-arrow{
+    content: url("/Travel-ProBusiness-Website1683020486015/assets/images/right-arrow.png");
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:-50px;
+}
+@media (max-width: 767px){
+    // .testimonial_slider{
+    //     //display: flex;
+    //     overflow-x: auto;
+    //     margin-left: -25px;
+    //     padding-left: 20px;
+    //    }
+
+    .facebook-slick{
+       
+        .content_Sec_inner {
+            
+            
+        .content_Sec {
+        margin-bottom: 10px !important;
+       max-height: 100% !important;
+       min-height: 100% !important;
+    
+        figure {
+    
+        img {
+         max-height: 184px !important;    
+            }
+        }
+        .cont{
+            padding: 0 15px !important;
+            
+         p {
+                font-size: 14px !important;
+                line-height: 18px !important;
+            }
+        }
+         }
+           .info{
+           padding: 0 10px; 
+     
+     .profile_wrap {
+       
+       figure{
+        img {
+            width: 40px;
+            height: 40px;
+
+        }
+        }
+    .profile {
+    
+          h4 {
+                font-size: 13px;
+            } 
+            p{
+                font-size: 12px;
+                line-height: 18px;
+
+            }                   
+        }
+      } 
+      .icon {
+        transform: scale(.7);
+    }  
+         }
+        }
+    }
+}

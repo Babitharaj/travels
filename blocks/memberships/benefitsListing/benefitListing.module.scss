@@ -1,0 +1,186 @@
+.member_bebifits {
+    display: flex;
+    flex-wrap: wrap;
+}
+.member_benifit_sec {
+ 
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 7px;
+    margin-bottom: 14px;
+
+ .benifits_inner {
+    position: relative;
+    display: flex;
+     align-items: center;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,.2);
+
+  figure {
+        height: 160px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        flex: 0 0 50%;
+        max-width: 50%;
+
+  img {
+            position: absolute;
+            top: -9999px;
+            right: -9999px;
+            bottom: -9999px;
+            left: -9999px;
+            margin: auto;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            opacity: 1;
+        } 
+    }
+
+    figcaption {
+             position: relative;
+            left: 0;
+            right: 0;
+            color: #333;
+            padding: 0 15px;
+            flex: 0 0 50%;
+            max-width: 50%;
+            top: 0;
+            height: 160px;
+            justify-content: center;
+            z-index: 9;
+            display: flex;
+           flex-direction: column;
+           width: calc(100% - 30px);
+      
+     h4 {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0;
+        }
+
+   .cont {
+       color: #333;
+        margin-top: 5px;
+            font-size: 12px;
+            
+            
+    .resorts_wrap {
+                margin-bottom: 5px;
+
+         span {
+                    display: flex;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    margin-bottom: 2px;
+                }       
+            }  
+            
+            
+        }  
+    } 
+}
+}
+
+.know_more {
+    color: #e86b0e;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 17px;
+    span{
+    font-weight: 550;
+    font-size: 23px;
+    }
+}
+.know_more:after {
+    content: '';
+    //background: url(../images/spriteimg.png?v1) no-repeat;
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    display: inline-block;
+    margin: 0 0 0 9px;
+    background-position: -224px -156px;
+    transform: scale(.8);
+    top: 3px;
+    position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .benifits_inner {
+        figcaption {
+            h4 {
+                font-size: 13px !important;
+                line-height: 15px !important;
+            } 
+        }
+    }
+}
+@media (max-width: 767px){
+
+.member_benifit_sec {
+    flex: 0 0 50% !important;
+    padding: 0 5px !important;
+    margin-bottom: 10px !important;
+    max-width: 50% !important;
+
+    .benifits_inner {
+    display: block !important;
+     
+   
+        figure {
+            flex: 0 0 100% !important;
+            max-width: 100% !important;
+        }
+        
+         figcaption {
+            position: absolute;
+             top: 15px;
+            left: 15px;
+            z-index: 9;
+            height: 100%;
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: calc(100% - 30px);
+            max-width: 100% !important;
+            padding: 0 0 !important;
+
+         h4 {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px !important;
+            } 
+            .cont {
+                color: #fff !important;
+                
+            }    
+        }  
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.3);
+        }
+    }
+  
+}
+
+
+}
+

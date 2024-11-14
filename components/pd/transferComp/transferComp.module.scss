@@ -1,0 +1,164 @@
+.dayplan-section{
+    border-bottom: solid 1px #e7e7e7;
+
+    .highlight {
+        position: relative;
+        padding: 0px 25px 10px 25px;
+
+        .transfer-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+
+            .transfer-title {
+                font-size: 14px;
+                color: #4a4a4a;
+            }
+            .transfer-btns{
+                span{
+                    color: #008cff;
+                    font-size: 12px;
+                     font-weight: bold;
+                    text-transform: uppercase;
+                    padding: 0 10px;
+                    cursor: pointer;
+                    border-right: solid 1px #e7e7e7;
+                }
+            }
+        }
+
+        .transfer-body {
+            display: flex;
+            flex-direction: row;
+            
+            figure{
+                width: 243px;
+                border-radius: 4px;
+                 margin-right: 15px;
+                box-sizing: border-box;
+               align-self: center;
+                display: flex;
+                  position: relative;
+
+                  .imageLoaderContainer{
+                    border-radius: 4px;
+                    overflow: hidden;
+                    background-size: cover;
+                    background-position: center;
+                    width:169px;
+                    height: 100px;
+
+                    img{
+                        opacity: 1;
+                         transition: opacity .5s ease;
+                         border-radius: 4px;
+                     }
+                  }
+            }
+          
+            .transfer-details{
+                display: flex;
+               flex-direction: column;
+                flex: 1;
+
+                .transfer-details-title{
+                    color: #000;
+                    font-size: 16px;
+
+                    p{
+                        color: #9b9b9b; 
+
+                        .blackText {
+                            font-weight: 800;
+                            color: #000;
+                            font-size: 16px;
+                            line-height: 16px;
+                        }
+                    }
+                    .subText{
+                        font-size: 12px;
+                        margin-top: 3px;
+                        color: #4a4a4a !important;
+                        font-weight: bold;
+                    }
+                } 
+                p{
+                    margin-top: 15px; 
+                    margin-bottom: 0;
+
+                    .transfer-label {
+                        color: #9b9b9b;
+                        font-size: 12px;
+                        display: none;
+                        margin: 5px 16px 5px 0;
+                    }
+                    .transfer-value{
+                        margin-right: 5px;
+                        position: relative;
+                        color: #4a4a4a;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 767px){
+    .highlight {
+        padding: 0 !important;
+    }
+    .transfer-header {
+        padding: 10px 0 !important;
+        .transfer-title {
+            font-size: 12px !important;
+        }
+        .transfer-btns{
+            span{
+                
+                font-size: 11px !important;
+            }
+        }
+    }
+    .transfer-body {
+        figure{
+            height: 58px !important;
+            width: 107px !important;
+            margin-right: 10px !important;
+
+           .imageLoaderContainer{
+            height: 58px !important;
+            width: 107px !important;
+           }
+        }
+   .transfer-details{
+      .transfer-details-title{
+                
+         .blackText {
+                   
+              font-size: 14px !important;
+               line-height: 14px !important;
+            }
+            .subText{
+                font-size: 11px !important;
+            }
+            
+        }
+        .grey-text{
+            margin-top: 10px !important; 
+            margin-bottom:10px !important;
+            
+            .transfer-label{
+                display: none !important;
+              }
+        }
+
+    }
+    
+    }
+}

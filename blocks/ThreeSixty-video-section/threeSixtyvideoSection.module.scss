@@ -1,0 +1,53 @@
+@media (min-width: 992px){
+.dis-bg-img {
+    margin-top: 30px;
+    width: 100%;
+}
+}
+.three-sixty-videos-section {
+    position: relative
+}
+
+.three-sixty-videos-section.in-detail-page .dis-bg-img .bg-container:after {
+    background: rgba(20,30,63,.4);
+    height: 100%
+}
+
+.three-sixty-videos-section.in-detail-page .dis-bg-img .bg-container img {
+    height: 440px
+}
+
+.three-sixty-videos-section .owl-carousel.owl-loaded {
+    display: flex;
+    justify-content: center
+}
+
+.dis-bg-img {
+    overflow: hidden;
+    width: 100%
+}
+
+.dis-bg-img,
+.dis-bg-img .bg-container {
+    position: relative
+}
+
+.dis-bg-img .bg-container:after {
+   // background: linear-gradient(180deg,rgba(21,34,73,0),#141e3f 80%);
+    bottom: 0;
+    content: "";
+    height: 80%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+
+.dis-bg-img .bg-container iframe {
+    height: 640px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+

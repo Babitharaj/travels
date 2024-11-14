@@ -1,0 +1,19 @@
+// @import '../../public/assets/css/variables.scss';
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  .button {
+    max-width: 25px !important;
+    background: initial !important;
+    border: none!important;
+    svg {
+      color: rgb(235, 45, 45);
+    }
+  }
+}
+.modalBody{
+  max-height: 700px;
+  overflow: scroll;
+}

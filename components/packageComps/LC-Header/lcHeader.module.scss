@@ -1,0 +1,23 @@
+.initerary-nav {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
+    position: sticky;
+    top: 145px;
+    z-index: 3;
+    //position: -webkit-sticky;
+    margin-bottom:0;
+    list-style: none;
+
+    li {
+        color: #4a4a4a;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 8px 12px;
+        cursor: pointer;
+        background-color:transparent;
+    }
+}

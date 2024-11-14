@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+
+// @mixin make-container($padding-x: $container-padding-x) {
+//     width: 100%;
+//     //padding-right: $padding-x!important;
+//     //padding-left: $padding-x!important;
+//     // margin-right: auto;
+//     // margin-left: auto;
+//   }
+
+//   .container {
+//     @include make-container(20px);
+//   }
+
+  // .row {
+  //   display: -webkit-box !important;
+  //   display: -moz-box !important;
+  //   display: -ms-flexbox !important;
+  //   display: -webkit-flex !important;
+  //   display: flex !important;
+  //   margin: 0 -20px !important;
+  //   flex-wrap: wrap !important;
+  // }
+  
+  
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";

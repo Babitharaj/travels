@@ -1,0 +1,106 @@
+.pakageDtlWrap {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.11);
+  border: solid 1px #e7e7e7;
+  background-color: #fff;
+  position:relative;
+ 
+  z-index: 5;
+  margin-bottom: 20px;
+
+  .pakageDtlWrapTop {
+    border-bottom: solid 1px #e7e7e7;
+    background: #eaf5ff;
+    padding: 20px;
+    position: relative;
+
+    .slashedPrice {
+      color: #9b9b9b !important;
+      font-size: 12px;
+      text-decoration: line-through;
+    }
+    .originalPrice {
+      // font-size: calc(1 * 12px);
+      // line-height: 12px;
+      font-size: 12px;
+      line-height: 12px;
+      span {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 800;
+      }
+    }
+
+    .subText {
+      font-size: 10px;
+      line-height: 10px;
+      color: #9b9b9b !important;
+    }
+    .pakageOfftag {
+      border-radius: 2px;
+      background: linear-gradient(247deg, #ff3e5e, #ff6d3f);
+      padding: 4px 5px;
+      position: absolute;
+      color: #fff;
+      font-size: 10px;
+      right: 20px;
+      top: 10px;
+    }
+  }
+  .pakageDtlWrapBottom {
+    .pakageDtlRow {
+      padding: 16px 20px 0px 20px;
+      border-bottom: 1px solid #e7e7e7;
+      .makeFlex {
+        display: flex;
+        margin-bottom: 6px;
+         
+        .DateIcon{
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+         }
+        .dateText {
+          flex: 1;
+          display: flex;
+          justify-content: space-between;
+
+          .duration {
+            font-weight: 800;
+            font-size: 14px;
+          }
+          .linkBtn {
+            font-weight: 700;
+            cursor: pointer;
+            color: #008cff;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .pakageDtlCta {
+      padding: 10px 20px 18px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e7e7e7;
+      margin: 4px 0 0 0;
+
+      .primaryBtn {
+        font-size: 12px;
+        width: 208px;
+        padding: 9px 20px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+        outline: 0;
+        border: 0;
+        text-align: center;
+        background: linear-gradient(93deg, #53b2fe, #065af3);
+        color: #fff;
+        border-radius: 34px;
+        box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

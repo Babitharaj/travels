@@ -1,0 +1,95 @@
+.footer_link_right {
+  
+
+
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+
+    img {
+        display: block;
+        max-width: 100%;
+        border: 0;
+        outline: 0;
+        height: auto;
+        background-color: transparent;
+    }
+    h3 {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+
+    .playStore {
+        width: 49%;
+    img {
+            display: block;
+            max-width: 100%;
+            border: 0;
+            outline: 0;
+            height: auto;
+            background-color: transparent;
+        }
+    }
+}
+.contact_other_link {
+    // border-bottom: 1px solid #fff;
+    padding: 0 15px 10px;
+    margin: 0 -15px;
+    border: none;
+    ul {
+        padding-left: 0 !important;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            -webkit-box-flex: 0;
+            flex: 0 0 100%;
+            max-width: 100%;
+            a{
+                display: block;
+               padding: 10px 0;
+               color: #666;
+               font-weight: 700;
+               font-size: 18px;
+            }
+        }
+    }
+    
+}
+
+.bottomCares{
+
+ .bottomBlock {
+  padding-bottom: 20px;
+  h3 {
+    padding-bottom: 5px;
+    font-size: 16px;
+  }
+  span {
+    font-size: 14px;
+    color: #666;
+ }
+  }
+}
+ 
+}
+
+@media (max-width: 767px){
+ .contact_other_link {
+    border-top: 1px solid #fff;
+    padding: 15px;
+    margin: 10px -15px;
+    border-bottom: 1px solid #fff;
+
+    ul{
+        li{
+            flex: 0 0 50%;
+            max-width: 50%; 
+        }
+    }
+}
+}
+

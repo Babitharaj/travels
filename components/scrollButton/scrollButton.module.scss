@@ -1,0 +1,13 @@
+@import "../../public/assets/css/utilities.scss";
+
+.Button {
+position: fixed;
+right: 10px;
+bottom: 40px;
+
+font-size: 2.5rem;
+z-index: 333;
+cursor: pointer;
+//color: $primary;
+
+ }

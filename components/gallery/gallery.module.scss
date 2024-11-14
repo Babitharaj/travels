@@ -1,0 +1,21 @@
+
+.gallery{
+    text-align: center;
+    margin-top: 30px;
+.zoom{
+    margin-left: 33%;
+}
+    .flex-row{
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+
+        .thumbnail{
+        padding-left: 20px;
+        }
+        .clicked{
+            border:5px solid #fff;
+         } 
+        }
+           
+}
